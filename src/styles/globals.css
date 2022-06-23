@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-scrollbar::-webkit-scrollbar {
+	width: 0.6em;
+	height: 0.6em;
+	background-color: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+	--tw-bg-opacity: 1;
+	background-color: rgba(203, 213, 225, var(--tw-bg-opacity));
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+	--tw-bg-opacity: 1;
+	background-color: rgba(148, 163, 184, var(--tw-bg-opacity));
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+	--tw-bg-opacity: 1;
+	background-color: rgba(100, 116, 139, var(--tw-bg-opacity));
+}
