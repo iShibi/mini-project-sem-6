@@ -70,6 +70,7 @@ export function Chat() {
 					onChange={e => setQuestion(e.target.value)}
 					value={question}
 					placeholder='Ask a question about Graphic Era University'
+					autoFocus
 				/>
 				<button type='submit'>
 					<ArrowCircleRightIcon className='h-12 w-12 fill-green-500' />
